@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://github-career-analyzer.vercel.app"),
+  metadataBase: new URL("https://github-career.vercel.app"),
 
   title: "GitHub Career Analyzer — Discover Your Real Developer Value",
   description:
