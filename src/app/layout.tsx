@@ -13,28 +13,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://github-career-analyzer.vercel.app"),
+
   title: "GitHub Career Analyzer — Discover Your Real Developer Value",
   description:
     "Analyze your GitHub profile with AI. Get insights on code quality, technologies, career readiness, and personalized growth roadmaps.",
+
   openGraph: {
     title: "GitHub Career Analyzer — Discover Your Real Developer Value",
     description:
       "Analyze repositories, code quality, technologies, contribution patterns, and career readiness using AI.",
-    type: "website",
-    locale: "en_US",
+    url: "https://github-career-analyzer.vercel.app",
     siteName: "GitHub Career Analyzer",
+    locale: "en_US",
+    type: "website",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "GitHub Career Analyzer — Discover Your Real Developer Value",
+        alt: "GitHub Career Analyzer",
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "GitHub Career Analyzer — Discover Your Real Developer Value",
+    title: "GitHub Career Analyzer",
     description:
       "Analyze repositories, code quality, technologies, contribution patterns, and career readiness using AI.",
     images: ["/og.png"],
