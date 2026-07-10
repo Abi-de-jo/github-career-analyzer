@@ -16,9 +16,7 @@ export const metadata: Metadata = {
   title: "GitHub Career Analyzer — Discover Your Real Developer Value",
   description:
     "Analyze your GitHub profile with AI. Get insights on code quality, technologies, career readiness, and personalized growth roadmaps.",
-
-
-    openGraph: {
+  openGraph: {
     title: "GitHub Career Analyzer — Discover Your Real Developer Value",
     description:
       "Analyze repositories, code quality, technologies, contribution patterns, and career readiness using AI.",
@@ -34,9 +32,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-
-
-  
   twitter: {
     card: "summary_large_image",
     title: "GitHub Career Analyzer — Discover Your Real Developer Value",
